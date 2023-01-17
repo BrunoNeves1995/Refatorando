@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IjMDBY7OiIAuWqy4x/9dTQKljHoUQ2FzwG+0V9A1lP6XLvAeMUmqkSgOGYy6XM1I7RHFH9uFou3DQQt8Lfz+qA==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Refatorando\\Refatorando\\Refatorando.Domain\\Refatorando.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Terminal 01\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
