@@ -10,7 +10,7 @@ namespace Refatorando.Domain.Entities
     {
         public Entity()
         {
-            Id = Guid.Parse(Guid.NewGuid().ToString().Replace("-", "").Substring(0, 10));
+            Id = Guid.NewGuid();
         }
 
         public Guid Id { get; private set; }

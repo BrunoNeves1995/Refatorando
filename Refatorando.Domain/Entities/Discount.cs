@@ -1,8 +1,3 @@
-using System.Diagnostics.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Flunt.Validations;
 
 namespace Refatorando.Domain.Entities
@@ -18,6 +13,7 @@ namespace Refatorando.Domain.Entities
                 new Contract<Discount>()
                     .Requires()
                     .IsNotNull(value, "Discount.Value", "Desconto é invalido")
+                    .IsLowerThan(-1, value, "Discount.Value", "Desconto não pode ser menor que zero ")
                     .IsGreaterOrEqualsThan(expireDate, DateTime.Now, "Discount.ExpireDate", "Data de expiração de ver maior ou igual a data de hoje")
             );
 

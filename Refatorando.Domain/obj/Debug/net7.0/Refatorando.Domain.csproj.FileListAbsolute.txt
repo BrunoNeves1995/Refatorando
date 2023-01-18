@@ -1,0 +1,12 @@
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\bin\Debug\net7.0\Refatorando.Domain.deps.json
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\bin\Debug\net7.0\Refatorando.Domain.dll
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\bin\Debug\net7.0\Refatorando.Domain.pdb
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\obj\Debug\net7.0\Refatorando.Domain.csproj.AssemblyReference.cache
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\obj\Debug\net7.0\Refatorando.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\obj\Debug\net7.0\Refatorando.Domain.AssemblyInfoInputs.cache
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\obj\Debug\net7.0\Refatorando.Domain.AssemblyInfo.cs
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\obj\Debug\net7.0\Refatorando.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\obj\Debug\net7.0\Refatorando.Domain.dll
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\obj\Debug\net7.0\refint\Refatorando.Domain.dll
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\obj\Debug\net7.0\Refatorando.Domain.pdb
+C:\Dev\Refatorando\Refatorando\Refatorando.Domain\obj\Debug\net7.0\ref\Refatorando.Domain.dll

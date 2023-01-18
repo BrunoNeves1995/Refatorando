@@ -16,7 +16,7 @@ namespace Refatorando.Domain.Entities
                    .Requires()
                    .IsNotNull(name, "Product.Name", "Nome do produto é inválido")
                    .IsGreaterThan(price, 0,"Product.Price", "Preço do produto deve ser maior que zero")
-                   .IsLowerThan(price, 0,"Product.Price", "Preço do produto não pode ser menor que zero")
+                   .IsLowerThan(0, price, "Product.Price", "Preço do produto não pode ser menor que zero")
                 //    .IsTrue(active, "Product.Active", "Produto não esta ativo")
            );
         }

@@ -18,7 +18,7 @@ namespace Refatorando.Domain.Entities
             AddNotifications(
                 new Contract<Order>()
                     .Requires()
-                    .IsNotNull(name, "Customer.Name", "Nome é inválido")
+                    .IsNotNullOrEmpty(name, "Customer.Name", "Nome é inválido")
                     .IsEmail(email, "Customer.Email", "E-mail é inválido")
             );
         }

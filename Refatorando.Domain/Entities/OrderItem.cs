@@ -14,8 +14,9 @@ namespace Refatorando.Domain.Entities
             AddNotifications(
                 new Contract<OrderItem>()
                     .Requires()
+                    .IsNotNull(product, "OrderItem.Product", "Produto é invalido")
                     .IsGreaterThan(quantity, 0, "OrderItem.Quantity", "A quantidade do pedido deve ser maior que zero")
-                    .IsLowerThan(quantity, 0, "OrderItem.Quantity", "A quantidade do pedido não pode ser menor que zero")
+                    .IsLowerOrEqualsThan(0, quantity,"OrderItem.Quantity", "A quantidade de item do pedido não pode ser menor que zero")
             );
 
             Product = product;
