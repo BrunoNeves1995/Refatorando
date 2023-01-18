@@ -9,7 +9,7 @@ namespace Refatorando.Tests.Entities
 
         private readonly Customer _customer = new Customer("Bruno", "nevesbruno814@gmail.com");
         private readonly Discount _discount = new Discount(DateTime.Now.AddDays(1), 10);
-        private readonly Product _product = new Product("produto 1", 10);
+        private readonly Product _product = new Product("produto 1", 10, true);
 
 
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Flunt.Validations;
+using Refatorando.Domain.Repositories;
 
 namespace Refatorando.Domain.Entities
 {   
